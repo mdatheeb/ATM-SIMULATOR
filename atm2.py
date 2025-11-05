@@ -65,7 +65,8 @@ def verify_pin():
 def initial_deposit():
     st.header("Initial Deposit")
     deposit = st.number_input(
-        "Enter the amount to deposit:", min_value=0, step=1)
+        "Enter the amount to deposit:", min_value=1000, step=1000)
+    st.caption("Minimum ₹1000 required to open an account.")
 
     if st.button("Confirm Deposit"):
         st.session_state.balance += deposit
@@ -87,7 +88,7 @@ def menu():
 
     if option == "Withdraw":
         debit = st.number_input(
-            "Enter the amount to withdraw:", min_value=0, step=1)
+            "Enter the amount to withdraw:", min_value=0, step=1000)
         if st.button("Withdraw"):
 
             # operation is performed
@@ -103,7 +104,7 @@ def menu():
 
     elif option == "Deposit":
         credit = st.number_input(
-            "Enter the amount to deposit:", min_value=0, step=1)
+            "Enter the amount to deposit:", min_value=0, step=1000)
 
         # operation is performed
 
@@ -124,8 +125,24 @@ def menu():
     # To exit the Program
 
     elif option == "Exit":
-        st.warning("Thank you for using ATB Bank services 🙏")
         st.session_state.menu = False
+
+        # to terminate the whole program and exit.
+
+        if st.button("Confirm to EXIT"):
+
+            # resetting all the session states
+
+            st.warning("Thank you for using ATB Bank services 🙏")
+            st.session_state.user_name = None
+            st.session_state.pin = None
+            st.session_state.verified = False
+            st.session_state.balance = 0
+
+            # resets the whole interface and starts the app again
+
+            st.rerun()
+
 
 # The initiater and Command Center, of the whole program..
 
@@ -139,7 +156,7 @@ def main():
     elif not st.session_state.verified:
         verify_pin()
 
-    elif st.session_state.balance is 0:
+    elif st.session_state.balance == 0:
         initial_deposit()
 
     else:
