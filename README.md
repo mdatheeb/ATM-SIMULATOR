@@ -12,13 +12,13 @@
 
 ## 🌟 Features
 
-✅ **User Registration** — Set your username and a secure 4-digit PIN.  
-🔐 **PIN Verification** — Secure login before accessing account functions.  
-💰 **Deposit Money** — Add funds to your balance instantly.  
-💸 **Withdraw Money** — Withdraw only if your balance allows.  
-📊 **Check Balance** — Instantly view your current balance.  
-🏁 **Exit Option** — Safely exit with a thank-you message.  
-💾 **Session Persistence** — User data stored in Streamlit’s `session_state`.
+ **User Registration** — Set your username and a secure 4-digit PIN.  
+ **PIN Verification** — Secure login before accessing account functions.  
+ **Deposit Money** — Add funds to your balance instantly.  
+ **Withdraw Money** — Withdraw only if your balance allows.  
+ **Check Balance** — Instantly view your current balance.  
+ **Exit Option** — Safely exit with a thank-you message.  
+ **Session Persistence** — User data stored in Streamlit’s `session_state`.
 
 ---
 
@@ -26,10 +26,10 @@
 
 | Component | Technology Used |
 |------------|------------------|
-| 🐍 Language | Python 3.8+ |
-| 💻 Framework | Streamlit |
-| 🗂️ Storage | Streamlit Session State |
-| 🎨 UI | Streamlit Components (Buttons, Inputs, etc.) |
+|  Language | Python 3.8+ |
+|  Framework | Streamlit |
+|  Storage | Streamlit Session State |
+|  UI | Streamlit Components (Buttons, Inputs, etc.) |
 
 ---
 
@@ -120,7 +120,7 @@ It does **not** implement real-world authentication, encryption, or database sto
 
 ## 🧑‍💻 Author
 
-**👋 Md Atheeb**  
+** Md Atheeb**  
 🎓 B.Tech CSE (AIML) Student  
 💡 Passionate about **AI, Machine Learning, and Intelligent Systems**  
 🌐 [LinkedIn](https://www.linkedin.com/in/md-atheeb-0b9a77327) | [GitHub](https://github.com/mdatheeb)
@@ -129,11 +129,11 @@ It does **not** implement real-world authentication, encryption, or database sto
 
 ## 🚀 Future Enhancements
 
-- 🧾 Transaction History  
-- 🧑‍💼 Multi-user Login System  
-- ☁️ Database Integration (SQLite / Firebase)  
-- 📱 Responsive UI with custom themes  
-- 🔊 Voice-based commands (via Streamlit Speech Components)
+-  Transaction History  
+-  Multi-user Login System  
+-  Database Integration (SQLite / Firebase)  
+-  Responsive UI with custom themes  
+-  Voice-based commands (via Streamlit Speech Components)
 
 ---
 
