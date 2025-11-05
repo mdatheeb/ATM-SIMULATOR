@@ -45,16 +45,16 @@ ATB_Banking_App/
 
 ---
 
-## ⚙️ Installation & Setup
+##  Installation & Setup
 
-### 1️⃣ Clone the Repository
+### 1️ Clone the Repository
 
 ```bash
 git clone https://github.com/yourusername/ATB_Banking_App.git
 cd ATB_Banking_App
 ```
 
-### 2️⃣ Install Dependencies
+### 2️ Install Dependencies
 
 ```bash
 pip install -r requirements.txt
@@ -66,7 +66,7 @@ Or manually install Streamlit:
 pip install streamlit
 ```
 
-### 3️⃣ Run the App
+### 3️ Run the App
 
 ```bash
 streamlit run app.py
@@ -74,7 +74,7 @@ streamlit run app.py
 
 ---
 
-## 🖥️ How It Works
+##  How It Works
 
 1. **Register** — Enter your username and set a 4-digit PIN.  
 2. **Verify** — Re-enter your PIN for authentication.  
@@ -87,7 +87,7 @@ streamlit run app.py
 
 ---
 
-## 🔄 Code Flow Overview
+##  Code Flow Overview
 
 ```python
 main() ➜
@@ -97,7 +97,7 @@ main() ➜
  └── menu()                   # Banking operations (Deposit, Withdraw, etc.)
 ```
 
-### 🧩 Streamlit Components Used
+###  Streamlit Components Used
 
 | Function | Purpose |
 |-----------|----------|
@@ -111,14 +111,14 @@ main() ➜
 
 ---
 
-## 🔒 Security Notice
+##  Security Notice
 
 > ⚠️ This project is for **learning and demonstration purposes only**.  
 It does **not** implement real-world authentication, encryption, or database storage.
 
 ---
 
-## 🧑‍💻 Author
+##  Author
 
 ** Md Atheeb**  
  B.Tech CSE (AIML) Student  
@@ -127,7 +127,7 @@ It does **not** implement real-world authentication, encryption, or database sto
 
 ---
 
-## 🚀 Future Enhancements
+##  Future Enhancements
 
 -  Transaction History  
 -  Multi-user Login System  
@@ -137,7 +137,7 @@ It does **not** implement real-world authentication, encryption, or database sto
 
 ---
 
-## 🪪 License
+##  License
 
 This project is licensed under the **MIT License** — feel free to use and modify it.
 
