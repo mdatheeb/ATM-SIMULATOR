@@ -10,7 +10,7 @@
 
 ---
 
-## 🌟 Features
+##  Features
 
  **User Registration** — Set your username and a secure 4-digit PIN.  
  **PIN Verification** — Secure login before accessing account functions.  
@@ -22,7 +22,7 @@
 
 ---
 
-## 🧠 Tech Stack
+##  Tech Stack
 
 | Component | Technology Used |
 |------------|------------------|
@@ -33,7 +33,7 @@
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 ATB_Banking_App/
