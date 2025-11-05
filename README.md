@@ -121,9 +121,9 @@ It does **not** implement real-world authentication, encryption, or database sto
 ## 🧑‍💻 Author
 
 ** Md Atheeb**  
-🎓 B.Tech CSE (AIML) Student  
-💡 Passionate about **AI, Machine Learning, and Intelligent Systems**  
-🌐 [LinkedIn](https://www.linkedin.com/in/md-atheeb-0b9a77327) | [GitHub](https://github.com/mdatheeb)
+ B.Tech CSE (AIML) Student  
+ Passionate about **AI, Machine Learning, and Intelligent Systems**  
+ [LinkedIn](https://www.linkedin.com/in/md-atheeb-0b9a77327) | [GitHub](https://github.com/mdatheeb)
 
 ---
 
